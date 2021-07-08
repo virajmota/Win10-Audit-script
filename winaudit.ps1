@@ -65,7 +65,11 @@ function initialize-audit {
      
     $start = get-date 
     
-    sleep 1 
+    sleep 2
+    
+    write-host "Present by Viraj K Mota"
+    
+    sleep 2
    
     write-host "Starting Audit at", $start
     "-------------------------------------`n"
